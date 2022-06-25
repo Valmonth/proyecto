@@ -1,0 +1,99 @@
+body{
+  box-sizing: border-box;
+  background-color: red;
+}
+.App{
+ position: absolute;
+ font-size: 16px; 
+ 
+ height: 100%;
+ width: 100%;
+}
+
+.card{
+  position: relative;
+  margin: 10px auto;
+  width: 650px;
+  height: 100%;
+  top: 25vh;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.symbols{
+  display: block;
+  position: relative;
+  color: rgb(246, 2, 2);
+  font-size: 95px;
+  left: 50px;
+  top: 20px;
+  z-index: 0;
+}
+.quoteBody{
+  position: relative;
+  font-size: 18px;
+  bottom: 50px;
+  left: 100px;
+  max-width: 410px;
+  color: #ff0000;
+  
+}
+
+.author{
+  position: relative;
+  bottom:35px;
+  left: 430px;
+  color: rgb(246, 2, 2);
+}
+
+.btnNex{
+  position: relative;
+  bottom: 5px;
+  left: 450px;
+  padding: 5px;
+  margin: 10px;
+  color: rgb(246, 2, 2);
+}
+.bulb{
+  width: 200px;
+	height: 200px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+
+.tarjeta{
+  background-color: white;
+  position: relative;
+  height: 320px;
+  width: 500px;
+  margin: 100px;
+  border-radius: 10px;
+  box-shadow: 4px 4px black inset;
+}
+
+.userName{
+  text-align: center;
+  padding: 10px;
+}
+
+.userImg{
+  text-align: center;
+}
+
+.userBtn{
+  text-align: center;
+  padding: 10px;
+}
+
+.userEmail{
+  text-align: center;
+  padding: 5px;
+}
+.userPhone{
+  text-align: center;
+  padding: 5px;
+}
+.userLoc{
+  text-align: center;
+  padding: 5px;
+}
